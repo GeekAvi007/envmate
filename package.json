@@ -1,0 +1,11 @@
+{
+  "name": "envmate",
+  "version": "0.1.0",
+  "description": ".env creator & manager CLI",
+  "bin": {
+    "envmate": "bin/envbuddy.js"
+  },
+  "type": "module",
+  "license": "MIT",
+  "engines": { "node": ">=18" }
+}

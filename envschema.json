@@ -1,0 +1,25 @@
+{
+  "$schema": "https://example/envbuddy.schema.json",
+  "environments": [
+    "development",
+    "production"
+  ],
+  "required": [
+    "PORT"
+  ],
+  "optional": [
+    "DATABASE_URL",
+    "JWT_SECRET"
+  ],
+  "descriptions": {
+    "PORT": "Server port (number)",
+    "DATABASE_URL": "Database connection string",
+    "JWT_SECRET": "Secret used to sign tokens"
+  },
+  "defaults": {
+    "PORT": "3000"
+  },
+  "types": {
+    "PORT": "number"
+  }
+}
